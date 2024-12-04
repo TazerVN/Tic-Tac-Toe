@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">TIC TAC TOE</div>
+    <div class="input">
+        <dialog open>
+            <form method="dialog">
+                <label for="p1"> Player 1 (X):
+                    <input type="text" name="player1" id="p1">
+                </label>
+
+                <label for="p2"> Player 2 (O):
+                    <input type="text" name="player2" id="p2">
+                </label>
+                <button type="button" id="start">Start!</button>
+            </form>
+        </dialog>
+    </div>
+    <div class="display">
+    </div>
+    <script src="game.js" defer></script>
+</body>
+</html>

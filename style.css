@@ -1,0 +1,126 @@
+.title{
+    font-size: 50px;
+    justify-self: center;
+    color: white;
+    padding: 16px;
+    user-select: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.game{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.game>.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    background-color: rgb(71, 84, 85);
+}
+
+.game>.row>*{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    color: white;
+    user-select: none;
+    border-radius: 16px;
+}
+
+.game>.row>*:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.game>.row>*>*{
+    user-select: none;
+    border-radius: 16px;
+}
+
+dialog{
+    margin: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 100px;
+    background-color: darkslategrey;
+    border-radius: 16px;
+    border: none;
+}
+
+form{
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+form>*{
+    width: 200px;
+    color: white;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 16px;
+    user-select: none;
+    
+
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    border-radius: 16px;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+button{
+    color: white;
+    padding: 16px;
+    background-color: cadetblue;
+    border-radius: 16px;
+    border: none;
+    font-size: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(95, 158, 160, 0.322);
+}
+
+button.restart{
+    border: none;
+    user-select: none;
+    margin-bottom: 24px;
+}
